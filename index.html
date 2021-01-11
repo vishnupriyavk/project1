@@ -1,0 +1,69 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=".\css\styless.css">
+    <link rel="stylesheet" href=".\js\scriptt.js">
+
+</head>
+
+<body>
+  <div>
+  <div class="wrapper">
+  <h2>User registration</h2>
+  <div id="error_message">
+
+  </div>
+  <form action="" id="myform" onsubmit = "return checking(); ">
+    <div class="input_field">
+        <input type="text" placeholder="First Name*" id="fname">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="last name*" id="lname">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Phone*" id="phone">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Email*" id="email">
+    </div>
+    <div class="input_field">
+        <input type="date" placeholder="DOB" id="dob">
+    </div>
+    <div class="input_field">
+      <select name="gender" id="gender">
+     <option value="male">male</option>
+    <option value="female">female</option>
+    <option value="other">others</option>
+
+  </select>
+
+    <div class="btn">
+        <input type="submit"  >
+       <input type="reset">
+
+      </div>
+  </form>
+     </div>
+  <div>
+  <button id="load">load </button>
+    <div>
+    </div>
+
+    <p id="demo"></p>
+
+    <table class="list" id="employeeList">
+                    <table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Email</th>
+    <th>mobile</th>
+    <th>DOB</th>
+    <th>gender</th>
+  </tr>
+      </table>
+  </body>
+  </html>
